@@ -28,14 +28,15 @@ public class SmartRigInitializer : MonoBehaviour
         smartRig.foot_wide = 0.03f;
 
         // Arm_rot_fix: 腕の角度を調整
-        smartRig.arm_rot_fix.z = 15.0f;
+        smartRig.arm_rot_fix.z = 5.0f;
+        smartRig.hand_rot_fix.z = 10.0f;
 
         // *************************************************
         // Arm_rotate: 歩く時の腕の振りを調整
         //   Arm_rotate > 0：踏み出す足と逆側の腕を前に振る
         //   Arm_rotate < 0：踏み出す足と同じ側の腕を前に振る
         // *************************************************
-        smartRig.arm_rotate = 60.0f;
+        smartRig.arm_rotate = 30.0f;
 
         // *************************************************
         // Spine_rot: 歩く時の上半身をひねる動きを調整
@@ -44,8 +45,8 @@ public class SmartRigInitializer : MonoBehaviour
         //   Spine_rot.z < 0：踏み出す足と逆側の肩が上がる
         //   Spine_rot.z > 0：踏み出す足と同じ側の肩が上がる
         // *************************************************
-        smartRig.spine_rot.y = 60.0f;
-        smartRig.spine_rot.z = -5.0f;
+        smartRig.upper_animation.spine_rot.y = 60.0f;
+        smartRig.upper_animation.spine_rot.z = -5.0f;
 
         // *************************************************
         // Head_rot: 歩く時の頭が揺れる動きを調整
@@ -54,8 +55,8 @@ public class SmartRigInitializer : MonoBehaviour
         //   Head_rot.y > 0：踏み出す足と逆の方向を見る（右足を踏み出す時に頭は左を向く）
         //   Head_rot.z < 0：前に出した足と逆の方向に頭が下がる（右足を踏み出す時に頭が左に下がる）
         // *************************************************
-        smartRig.head_rot.y = 45.0f;
-        smartRig.head_rot.z = -20.0f;
+        smartRig.upper_animation.head_rot.y = 45.0f;
+        smartRig.upper_animation.head_rot.z = -20.0f;
     }
 
     // void Start()

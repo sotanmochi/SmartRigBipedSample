@@ -14,7 +14,7 @@
 ## Third party assets
 You need to import the following assets from Unity Asset Store.
 
-- [SmartRig Biped](https://assetstore.unity.com/packages/tools/animation/smartrig-biped-134814)
+- [SmartRig Biped (Vesion 1.21)](https://assetstore.unity.com/packages/tools/animation/smartrig-biped-134814)
 
 The following assets are included in this project.
 
