@@ -8,7 +8,7 @@
 - MIT License
 
 ## Tested Environment
-- Unity 2018.3.7f1
+- Unity 2018.4.17f1
 - Windows 10 Pro
 
 ## Third party assets
